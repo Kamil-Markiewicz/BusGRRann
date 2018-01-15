@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    tools:context="com.kamil_m.busgrrann.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include android:id="@+id/text" layout="@layout/text_view_layout"></include>
+            <include android:id="@+id/edit" layout="@layout/edit_text_layout"></include>
+
+            <include android:id="@+id/text2" layout="@layout/text_view_layout"></include>
+            <include android:id="@+id/edit2" layout="@layout/edit_text_layout"></include>
+
+            <include android:id="@+id/text3" layout="@layout/text_view_layout"></include>
+            <include android:id="@+id/edit3" layout="@layout/edit_text_layout"></include>
+
+            <include android:id="@+id/text4" layout="@layout/text_view_layout"></include>
+            <include android:id="@+id/edit4" layout="@layout/edit_text_layout"></include>
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
